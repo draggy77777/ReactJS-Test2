@@ -36,3 +36,252 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(195, 232, 255);
+  height: 100vh;
+}
+
+.arrangementblock{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+}
+
+.block{
+  align-items: center;
+            justify-content: flex-start;
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+            height: 100px;
+            background-color: white;
+            border-radius: 15px;
+            border-width: 10;
+            margin-left: 65px;
+            box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+}
+
+.innerblock{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+.blockword{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.blockimage{
+  width: 60px;
+  height: 60px;
+  margin-left: 80px;
+}
+.blockimage2{
+  width: 60px;
+  height: 60px;
+  margin-left: 130px;
+}
+
+.downcolumn{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+.arrangementblock2{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+}
+
+.arrangementfblock{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fdblock{
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 60px;
+  box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+}
+
+.innerfdblock{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: -60px;
+
+}
+
+.decopic{
+  width: 450px;
+  height: auto;
+}
+
+.profilepicblock{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.circlebackground{
+  width:  110px;
+  height: 110px;
+  margin-left: 175px;
+  border-radius: 50px;
+  margin-top: -60px;
+  border-color: white;
+}
+
+.profilepic{
+  width:  100px;
+  height: 100px;
+  /* margin-left: 175px; */
+  border-radius: 50px;
+  /* margin-top: -60px; */
+  outline-style: solid;
+  outline-color: white;
+}
+
+.buttoncover{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.firstbutton{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* outline-color: red;
+  outline-style: solid; */
+  margin-right: 10px;
+  border-color: red;
+}
+
+.connectbutton{
+  color: white;
+  font-size: 15px;
+}
+
+.secondbutton{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-color: red;
+}
+
+.messagebutton{
+  color: red;
+  font-size: 15px;
+}
+
+.sdupperblock{
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+}
+
+.sdupperblocktext{
+  font-size: 30;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.sdbottomblock{
+  height: 400px;
+  width: 480px;
+  overflow-y: scroll;
+  margin-left: 10;
+}
+
+.sdblock{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: -100px;
+  box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+}
+
+.tdblock{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: -100px;
+  box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+
+}
+
+.innertdblock{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-top: 50px
+}
+
+.spread{
+  font-weight: bold;
+  font-size: large;
+}
+.title{
+  font-weight: bold;
+  font-size: medium;
+}
+.text{
+  font-size: medium;
+}
+
+.thstyle{
+  text-align: left;
+}
+
+.table {
+  border: 1px solid;
+  margin-left: 20px;
+  border-color: lightblue ;
+}
